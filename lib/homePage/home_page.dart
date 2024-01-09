@@ -6,7 +6,7 @@ import '../variables.dart';
 import 'category_items.dart';
 import 'description_text.dart';
 import 'discount_cards.dart';
-import 'search_bar.dart';
+// import 'search_bar.dart';
 
 HomePage? homePage;
 
@@ -44,7 +44,7 @@ class HomePage extends State {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const DescriptionText(),
-              const SearchBar(),
+              // const SearchBar(),
               const DiscountCards(),
               Padding(
                 padding: EdgeInsets.all(padding),
